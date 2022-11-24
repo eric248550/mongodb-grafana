@@ -9,7 +9,8 @@ Allows MongoDB to be used as a data source for Grafana by providing a proxy to c
 * **MongoDB** > 3.4.x
 
 ## Install and Start the MongoDB proxy server
-
+* `git clone https://github.com/eric248550/mongodb-grafana.git`
+* `cd mongodb-grafana`
 * Open a command prompt in the mongodb-grafana directory
 * Run `npm install` to install the node.js dependencies
 * Run `npm run server` to start the REST API proxy to MongoDB. By default, the server listens on http://localhost:3333
