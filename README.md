@@ -73,7 +73,7 @@ db.raw_data.aggregate([
 1. Install foreverjs package (only install once)
     `npm install forever -g`
 2. Go the the directory
-    `cd mongodb-grafana/dist/server`
+    `cd Desktop/mongodb-grafana/dist/server`
 3. Run API in background
     `forever start mongodb-proxy.js`
 4. Check API is runnung
